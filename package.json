@@ -1,0 +1,25 @@
+{
+  "name": "lab1-ciphers",
+  "version": "1.0.0",
+  "description": "Educational implementation of substitution and transposition ciphers",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/cli.js",
+    "cli": "node src/cli.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "keywords": [
+    "cryptography",
+    "ukrainian-alphabet",
+    "ciphers",
+    "vitest"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitest": "^5.1.0"
+  }
+}
